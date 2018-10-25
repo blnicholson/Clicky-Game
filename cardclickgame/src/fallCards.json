@@ -1,0 +1,74 @@
+[
+{
+     "id": 1,
+     "name": "Card Name 1",
+     "image": "/images/pipBoy.png"
+     
+},
+{
+    "id": 2,
+    "name": "Card Name 2",
+    "image": "/images/seventySix.jpg"
+    
+},
+{
+    "id": 3,
+    "name": "Card Name 3",
+    "image": "/images/fallout4.jpg"
+    
+},
+{
+    "id": 4,
+    "name": "Card Name 4",
+    "image": "/images/pipBoy2.jpg"
+    
+},
+{
+    "id": 5,
+    "name": "Card Name 5",
+    "image": "/images/vault111.jpg"
+    
+},
+{
+    "id": 6,
+    "name": "Card Name 6",
+    "image": "/images/nukaCola.jpg"
+    
+},
+{
+    "id": 7,
+    "name": "Card Name 7",
+    "image": "/images/powerArmor.jpg"
+    
+},
+{
+    "id": 8,
+    "name": "Card Name 8",
+    "image": "/images/pipBoyWrist.jpg"
+    
+},
+{
+    "id": 9,
+    "name": "Card Name 9",
+    "image": "/images/codsworth.png"
+    
+},
+{
+    "id": 10,
+    "name": "Card Name 10",
+    "image": "/images/diamondCity.jpg"
+    
+},
+{
+    "id": 11,
+    "name": "Card Name 11",
+    "image": "/images/workshop.jpg"
+    
+},
+{
+    "id": 12,
+    "name": "Card Name 12",
+    "image": "/images/hero.jpg"
+    
+}
+]
