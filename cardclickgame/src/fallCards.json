@@ -1,74 +1,76 @@
+
 [
 {
      "id": 1,
      "name": "Card Name 1",
-     "image": "/images/pipBoy.png"
+     "image": "/images/pipBoy.png",
+     "clickedCard": false
      
 },
 {
     "id": 2,
     "name": "Card Name 2",
-    "image": "/images/seventySix.jpg"
-    
+    "image": "/images/seventySix.jpg",
+    "clickedCard": false
 },
 {
     "id": 3,
     "name": "Card Name 3",
-    "image": "/images/fallout4.jpg"
-    
+    "image": "/images/fallout4.jpg",
+    "clickedCard": false
 },
 {
     "id": 4,
     "name": "Card Name 4",
-    "image": "/images/pipBoy2.jpg"
-    
+    "image": "/images/vaulttec.jpg",
+    "clickedCard": false
 },
 {
     "id": 5,
     "name": "Card Name 5",
-    "image": "/images/vault111.jpg"
-    
+    "image": "/images/vault111.jpg",
+    "clickedCard": false
 },
 {
     "id": 6,
     "name": "Card Name 6",
-    "image": "/images/nukaCola.jpg"
-    
+    "image": "/images/nukaCola.jpg",
+    "clickedCard": false
 },
 {
     "id": 7,
     "name": "Card Name 7",
-    "image": "/images/powerArmor.jpg"
-    
+    "image": "/images/powerArmor.jpg",
+    "clickedCard": false
 },
 {
     "id": 8,
     "name": "Card Name 8",
-    "image": "/images/pipBoyWrist.jpg"
-    
+    "image": "/images/pipBoyWrist.jpg",
+    "clickedCard": false
 },
 {
     "id": 9,
     "name": "Card Name 9",
-    "image": "/images/codsworth.png"
-    
+    "image": "/images/codsworth.png",
+    "clickedCard": false
 },
 {
     "id": 10,
     "name": "Card Name 10",
-    "image": "/images/diamondCity.jpg"
-    
+    "image": "/images/diamondCity.jpg",
+    "clickedCard": false
 },
 {
     "id": 11,
     "name": "Card Name 11",
-    "image": "/images/workshop.jpg"
-    
+    "image": "/images/workshop.jpg",
+    "clickedCard": false
 },
 {
     "id": 12,
     "name": "Card Name 12",
-    "image": "/images/hero.jpg"
-    
+    "image": "/images/hero.jpg",
+    "clickedCard": false
 }
 ]
