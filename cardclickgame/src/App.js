@@ -13,6 +13,7 @@ class App extends Component {
     fallCards,
      playerScore: 0,
      highScore: 0,
+     wrongRightDisplay:"",
      clickedCard: [],
      
 
@@ -54,21 +55,19 @@ class App extends Component {
   //Function to increment score
   handleAddScore = () => {
     const addScore = this.state.playerScore + 1;
-    this.setState({playerScore: addScore})
-    
+    this.setState({playerScore: addScore, wrongRightDisplay: "Correct Guess!"})
     if (addScore >= this.state.highScore) {
       this.setState({highScore: addScore})
     }
     else if (addScore === 12) {
-      alert("Congratulations, You Won! Please Play Again!")
+     
     }
     this.handleShuffleCards();
   }
 
   //Function to reset game
   handleGameReset = () =>{
-  alert("LOSER!!!")
-  this.setState({playerScore: 0, highScore: this.state.highScore, clickedCard: []});
+  this.setState({playerScore: 0, highScore: this.state.highScore, clickedCard: [], wrongRightDisplay: "Wrong Guess!"});
   this.handleShuffleCards();
    
   }
@@ -76,14 +75,14 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Welcome to the Fallout!</Title>
+        <Title><strong>Welcome to the Fallout!</strong></Title>
          <h4>Click on an image to earn points, but don't click an image more than once!</h4>
         <br></br>
         <Navbar
           FallOut
            playerScore = {this.state.playerScore}
            highScore = {this.state.highScore}
-           rightWrong = {this.state.winner}
+           wrongRightDisplay = {this.state.wrongRightDisplay}
         />
         <br></br>
         <div className="container">

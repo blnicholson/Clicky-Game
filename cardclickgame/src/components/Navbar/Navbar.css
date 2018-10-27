@@ -5,9 +5,15 @@ nav{
 }
 
 #playerScore{
-    padding-left: 32%;
+    padding-left: 20%;
+    font-size:2rem
 }
 
 #highScore{
-    padding-right: 32%;
+    padding-right: 20%;
+    font-size:2rem
+}
+#wrongRight{
+    
+    font-size:1.5rem
 }
