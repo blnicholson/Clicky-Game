@@ -2,12 +2,15 @@
   "name": "cardclickgame",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://blnicholson.github.io/Clicky-Game/",
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "2.0.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
