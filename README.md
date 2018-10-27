@@ -1,6 +1,6 @@
 ![welcome](markdownImages/Welcome.png)
  
- In this game, click on an image once and only once.  If you click on the same image twice, its game over!  Try and see if you can beat the high score!  Click here to try your luck: (https://infinite-reef-99768.herokuapp.com/)
+ In this game, click on an image once and only once.  If you click on the same image twice, its game over!  Try and see if you can beat the high score!  Click here to try your luck: [Play Game](https://infinite-reef-99768.herokuapp.com/)
 
 ## **Game Overview**
 This app is a simple click based game that has the user click on an image.  Once the image has been clicked, the score will incremented by one and the images will shuffle.  The user will continue to click on different images until they click on the same image twice.  Once that happens, then the game is over and the score will reset.
