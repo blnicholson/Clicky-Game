@@ -1,11 +1,10 @@
 .wrapper {
-    
-    background-image:url("./images/background2.jpg");
-    background-position: center;
-    background-size: cover; 
-    color:whitesmoke;
-    text-align:center;
-
-    
-  }
+ padding-top:10px;
+  background-image:url("./images/background2.jpg");
+  background-position: center;
+  background-size: cover; 
+  color:#DDB726;
+  text-align:center; 
+  font-family: 'Sigmar One', cursive;
+}
   

@@ -4,9 +4,8 @@ import "./Navbar.css";
 const Navbar = props => (
   
   <nav className="navbar">
-  
-  <span className="navbar-brand mb-0 h1">Score: {props.playerScore}</span>
-  <span className ="navbar-brand mb-0-h1">High Score: {props.highScore}</span>
+  <span className="navbar-brand mb-0 h1" id = "playerScore">Score: {props.playerScore}</span>
+  <span className ="navbar-brand mb-0-h1" id= "highScore">High Score: {props.highScore}</span>
 
 </nav>
 );
